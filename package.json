@@ -1,0 +1,32 @@
+{
+  "name": "vietnameserecipeserver",
+  "version": "1.0.0",
+  "description": "Backend Server for the Vietnamese Recipe project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Emma Dang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "helmet": "^4.3.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.12.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.10",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "request": "^2.88.2"
+  }
+}
