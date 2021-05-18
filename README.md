@@ -22,6 +22,8 @@ cd ..
 ```
 
 ## Development server
-Run ```node app.js``` to the terminal. 
+Run ```npm start``` in the terminal. 
 
 Run this backend server before serving the AuthenticVietnam project.
+
+Hit Ctrl+C to terminate the server.
