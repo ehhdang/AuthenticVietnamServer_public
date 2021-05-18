@@ -3,8 +3,9 @@ This project uses Node.js, Passport, and MongoDB to create a backend server
 for the AuthenticVietnam application
 
 ## Generate jwtRSA key pair
-1. Navigate to the bin folder in your project directory
+1. Create a bin folder in your project directory and navigate into it
 ```
+mkdir bin
 cd bin
 ```
 2. Generate the private key. **DO NOT** add a pass phrase. Simply hit ENTER when prompted to enter a pass phrase
